@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChristDev Internship Registration Form</title>
+  </head>
+  <body>
+    <h1>ChristDev Internship Registration Form</h1>
+    <h2>Personal Information</h2>
+
+    <form action="" method="get">
+      <div class="input">
+        <label for="">Full Name:</label>
+        <input
+          type="text"
+          id="FullName"
+          name="fullname"
+          minlength="3"
+          placeholder="Enter your full name"
+        />
+      </div>
+      <br />
+      <div class="input">
+        <label for="">Email:</label>
+        <input
+          type="text"
+          id="Email"
+          name="Email"
+          minlength="3"
+          placeholder="Enter your Email"
+        />
+      </div>
+      <br />
+      <div class="input">
+        <label for="">Phone:</label>
+        <input
+          type="text"
+          id="Phone"
+          name="phone"
+          minlength="9"
+          maxlength="13"
+          placeholder="Enter your phone number"
+        />
+      </div>
+      <br />
+      <div class="input">
+        <label for="">Date of Birth:</label>
+        <input
+          type="date"
+          id="DateOfBirth"
+          name="dateOfBirth"
+          placeholder="Enter your date of birth"
+        />
+      </div>
+      <div class="radio">
+        <p>Gender:</p>
+        <label for="male">male:</label>
+        <input type="radio" id="Male" name="gender" />
+        <label for="female">female:</label>
+        <input type="radio" id="Female" name="gender" />
+      </div>
+
+      <h2>Education</h2>
+      <div class="input">
+        <label for="">School/University</label>
+        <input type="text" id="School" name="school" />
+      </div>
+      <br />
+      <div class="input">
+        <label for="">Programme:</label>
+        <input type="text" id="Programme" name="programme" />
+      </div>
+      <br />
+      <div class="level">
+        <label for="">Level:</label>
+        <select type="" id="Level" name="level">
+          <option value="200">200</option>
+          <option value="300">300</option>
+          <option value="400">400</option>
+          <option value="500">500</option>
+        </select>
+      </div>
+
+      <h2>Technical Information</h2>
+      <div class="input">
+        <label for="beginner">Skill Level: Beginner </label>
+        <input type="radio" id="Beginner" name="SkillLevel" />
+        <label for="Intermediate">Intermediate</label>
+        <input type="radio" id="Intermediate" name="SkillLevel" />
+        <label for="Expert">Expert</label>
+        <input type="radio" id="Expert" name="SkillLevel" />
+      </div>
+
+      <h2>Internship Information</h2>
+      <div class="input">
+        <label for="web development">Interest: Web Development</label>
+        <input type="radio" name="interest" id="Interest" />
+        <label for="Mobile development">Mobile Development</label>
+        <input type="radio" value="mobile-development" />
+        <label for="Backend development">Backend Development</label>
+        <input type="radio" value="backend-development" />
+        <label for="UI/UX">UI/UX</label>
+        <input type="radio" value="UI/UX" />
+        <label for="AI">AI</label>
+        <input type="radio" value="AI" />
+      </div>
+      <div class="textarea">
+        <label for="">Internship Goals:</label>
+        <textarea
+          id="Goals"
+          name="goals"
+          minlength="10"
+          placeholder="My internship goals"
+        >
+        </textarea>
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+      <br><br>
+      <div>
+        <input type="checkbox" id="confirm" />Confirm
+        <!-- <label for="confirm">Confirm</label> -->
+      </div>
+    </form>
+  </body>
+</html>
