@@ -19,8 +19,8 @@
       <a href="index.html">Home</a>
       <a href="login.html">Login</a>
       <a href="about.html">About Us</a>
-      <a href="Expense.html">Expense</a>
-      <a href="#signup"><button>Sign Up</button></a>
+      <a href="expense.html">Expense</a>
+      <a href="#signup">Sign Up</a>
     </header>
     <main>
       <h1>MoneyTracker 💰</h1>
@@ -37,7 +37,6 @@
         src="../Personal project/media/1. Creating an HTML Document.mp4"
         width="900"
         controls
-        autoplay
       ></video>
       <hr />
       <h1>What Does MoneyTracker Do?</h1>
@@ -67,38 +66,36 @@
       </p>
       <hr />
       <h2 id="signup">Sign Up Now!</h2>
-      <form action="" method="post">
-        <div>
+      <form method="post">
+        <p>
           <label for="email">Email:</label>
           <input
             type="email"
             id="Email"
-            name="name"
+            name="email" required
             placeholder="johndoe@gmail.com"
           />
-        </div>
-        <br />
-        <div>
+        </p>
+        
+        <p>
           <label for="password">Password:</label>
           <input
             type="password"
-            id="Password"
+            id="password"
             name="password"
-            placeholder="aJ49%xVf&a2@"
+            placeholder="aJ49%xVf&a2@" required
           />
-        </div>
-        <br />
-        <div>
-          <label for="password">Confirm Password:</label>
+        </p>
+        <p>
+          <label for="confirmPassword">Confirm Password:</label>
           <input
             type="password"
-            id="Password"
-            name="password"
-            placeholder="aJ49%xVf&a2@"
+            id="confirmPassword"
+            name="confirmPassword"
+            placeholder="aJ49%xVf&a2@" required
           />
-        </div>
-        <br />
-        <button type="submit">Submit</button>
+        </p>
+        <button type="submit">Create Account</button>
       </form>
       <h4>Already have an account? <a href="login.html">Login</a></h4>
       <br />

@@ -11,32 +11,34 @@
 
     <form action="" method="get">
       <div class="input">
-        <label for="">Full Name:</label>
+        <label for="fullName">Full Name:</label>
         <input
           type="text"
-          id="FullName"
+          id="fullName"
           name="fullname"
           minlength="3"
           placeholder="Enter your full name"
+          required
         />
       </div>
       <br />
       <div class="input">
         <label for="">Email:</label>
         <input
-          type="text"
-          id="Email"
-          name="Email"
+          type="email"
+          id="email"
+          name="email"
           minlength="3"
           placeholder="Enter your Email"
+          required
         />
       </div>
       <br />
       <div class="input">
-        <label for="">Phone:</label>
+        <label for="phone">Phone:</label>
         <input
-          type="text"
-          id="Phone"
+          type="tel"
+          id="phone"
           name="phone"
           minlength="9"
           maxlength="13"
@@ -45,10 +47,10 @@
       </div>
       <br />
       <div class="input">
-        <label for="">Date of Birth:</label>
+        <label for="dateOfBirth">Date of Birth:</label>
         <input
           type="date"
-          id="DateOfBirth"
+          id="dateOfBirth"
           name="dateOfBirth"
           placeholder="Enter your date of birth"
         />
@@ -63,18 +65,18 @@
 
       <h2>Education</h2>
       <div class="input">
-        <label for="">School/University</label>
-        <input type="text" id="School" name="school" />
+        <label for="school">School/University</label>
+        <input type="text" id="school" name="school" />
       </div>
       <br />
       <div class="input">
-        <label for="">Programme:</label>
-        <input type="text" id="Programme" name="programme" />
+        <label for="programme">Programme:</label>
+        <input type="text" id="programme" name="programme" />
       </div>
       <br />
       <div class="level">
-        <label for="">Level:</label>
-        <select type="" id="Level" name="level">
+        <label for="level">Level:</label>
+        <select type="" id="level" name="level">
           <option value="200">200</option>
           <option value="300">300</option>
           <option value="400">400</option>
@@ -85,26 +87,34 @@
       <h2>Technical Information</h2>
       <div class="input">
         <label for="beginner">Skill Level: Beginner </label>
-        <input type="radio" id="Beginner" name="SkillLevel" />
-        <label for="Intermediate">Intermediate</label>
-        <input type="radio" id="Intermediate" name="SkillLevel" />
-        <label for="Expert">Expert</label>
-        <input type="radio" id="Expert" name="SkillLevel" />
+        <input type="radio" id="beginner" name="SkillLevel" />
+        <label for="intermediate">Intermediate</label>
+        <input type="radio" id="intermediate" name="SkillLevel" />
+        <label for="expert">Expert</label>
+        <input type="radio" id="expert" name="SkillLevel" />
       </div>
 
       <h2>Internship Information</h2>
       <div class="input">
         <label for="web development">Interest: Web Development</label>
-        <input type="radio" name="interest" id="Interest" />
+        <input type="checkbox" name="interest" id="Interest" />
         <label for="Mobile development">Mobile Development</label>
-        <input type="radio" value="mobile-development" />
+        <input type="checkbox" value="mobile-development" />
         <label for="Backend development">Backend Development</label>
-        <input type="radio" value="backend-development" />
+        <input type="checkbox" value="backend-development" />
         <label for="UI/UX">UI/UX</label>
-        <input type="radio" value="UI/UX" />
+        <input type="checkbox" value="UI/UX" />
         <label for="AI">AI</label>
-        <input type="radio" value="AI" />
+        <input type="checkbox" value="AI" />
       </div>
+      <p class="textarea">
+        <label for="techKnown">Technologies Already Known:</label>
+        <textarea
+          id="techKnown"
+          name="techKnown"
+        >
+      </textarea>
+      </p>
       <div class="textarea">
         <label for="">Internship Goals:</label>
         <textarea
@@ -117,7 +127,7 @@
       </div>
       <br />
       <input type="submit" value="Submit" />
-      <br><br>
+      <br /><br />
       <div>
         <input type="checkbox" id="confirm" />Confirm
         <!-- <label for="confirm">Confirm</label> -->
