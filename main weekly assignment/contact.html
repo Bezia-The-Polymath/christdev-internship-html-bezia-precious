@@ -13,10 +13,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/mainweeklyproject.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <a href="home.html">Home</a>
         <a href="aboutme.html">About Me</a>
         <a href="learningroadmap.html">Learning Roadmap</a>
@@ -27,8 +28,8 @@
     <main>
       <br />
       <hr />
-      <h1>Contact form</h1>
-      <form method="get">
+      <h1 class="head">Contact form</h1>
+      <form method="get" class="card">
         <div class="input">
           <label for="name">Name:</label>
           <input
@@ -52,7 +53,7 @@
         </div>
         <br />
         <div class="input">
-          <label for="subject">Subject:</label>
+          <label for="subject">Subject:</label><br>
           <textarea
             name="subject"
             id="subject"
@@ -62,20 +63,22 @@
         </div>
         <br />
         <div class="input">
-          <label for="">Message:</label>
+          <label for="">Message:</label><br>
           <textarea
             name="message"
             id="message"
-            placeholder="I am writing to..." required
+            placeholder="I am writing to..."
+            required
           ></textarea>
         </div>
         <br />
         <div class="input">
-          <label for="reason">Reason for contact:</label>
+          <label for="reason">Reason for contact:</label><br>
           <textarea
             name="reason"
             id="reason"
-            placeholder="I am writing to..." required
+            placeholder="I am writing to..."
+            required
           ></textarea>
         </div>
         <br />
@@ -85,15 +88,13 @@
     <br />
     <hr />
     <br />
-    <footer align="center">
+    <footer align="center" class="foot">
       <i class="fa-solid fa-house"></i> Home
       <i class="fa-solid fa-phone"></i> +237 652 75 44 16
       <i class="fa-solid fa-envelope"></i> beziaprecious@gmail.com
       <i class="fa-solid fa-user"></i> Profile
       <i class="fa-solid fa-location-dot"></i> Cameroon
-
-      <i class="fa-brands fa-facebook"></i
-      ><a href="index.html" alt="men" target="_blank">Bezia Precious</a>
+      <i class="fa-brands fa-facebook"></i>Bezia Precious
       <i class="fa-brands fa-whatsapp fa-1x"></i>+237 652 75 44 16
     </footer>
   </body>
