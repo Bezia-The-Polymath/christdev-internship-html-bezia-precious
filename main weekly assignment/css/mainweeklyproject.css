@@ -19,7 +19,7 @@
   box-shadow: 0 40px 12px rgba(0, 0, 0, 0.1);
 }
 .foot {
-  background-color: #004cff;
+  background-color: #000000;
   color: #ffffff;
   padding: 16px;
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 body {
-  background-color: #f8fafc;
+  background-color: #d4c470;
   color: #000000;
   min-height: 100vh;
   display: flex;
