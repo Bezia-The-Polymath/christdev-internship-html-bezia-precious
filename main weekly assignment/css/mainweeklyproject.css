@@ -30,7 +30,7 @@
   margin-top: auto;
 }
 .foot:hover {
-  color: #2f00ff;
+  color: #ffdd00;
 }
 .navbar {
   position: relative;
@@ -44,7 +44,7 @@
   border: none;
 }
 .navbar a:hover {
-  color: #0026ff;
+  color: #ffd000;
   animation: shake 2s;
 }
 .navbar a {
